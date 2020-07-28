@@ -1,0 +1,129 @@
+#e-store .mimoC-bg-section{
+    background: #FFD400;
+    height: auto;
+    padding: 2rem 0;
+    width: 90%;
+    margin: 0 0 0 auto;
+    border-radius: 100px 0 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#e-store .mimoC-bg-inner-section{
+    background: #fff;
+    /* margin: 5% auto; */
+   
+    width: 90%;
+    margin: 0 0 0 auto;
+    border-radius: 100px 0 0px 100px;
+}
+#e-store .mimoC-e-store-img{
+    width: 13%;
+    padding: 1rem 0;
+}
+#e-store .mimoC-bold-title{
+    font-weight: bold;
+}
+#e-store .mimoC-left-e-store{
+    padding: 2rem;
+}
+#e-store .mimoC-left-e-store-body p{
+    font-size: 14px;
+}
+#e-store .mimoC-left-e-store-body h5{
+    font-size: 17px;
+}
+#e-store .mimoC-right-img {
+    font-size: 17px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#e-store .mimoC-right-img .mimoC-4-in-one {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   
+}
+#e-store .mimoC-right-img .mimoC-4-in-one {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 160px;
+    height: 250px;
+
+}
+#e-store .mimoC-right-img .mimoC-4-in-one .mimoC-positioning{
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+#e-store .mimoC-right-img .mimoC-4-in-one .mimoC-positioning .no-padding{
+   padding: 0;
+
+}
+#e-store .mimoC-right-img .mimoC-4-in-one .x-h{
+    width: 100%;
+    position: absolute;
+}
+/* #e-store .mimoC-right-img img:nth-child(1){
+    width: 100%;
+} */
+/* #e-store .mimoC-right-img .mimoC-2img{
+   position: absolute;
+} */
+#e-store .mimoC-right-img .mimoC-left-sm-img{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+#e-store .mimoC-right-img .mimoC-left-sm-img img{
+    position: relative;
+    bottom: 0;
+    left: -19px;
+    width: 195px;
+}
+
+@media(max-width:768px){
+    #e-store .mimoC-bg-section{
+        height: auto;
+        padding: 1.5rem 0px;
+    }
+    #e-store .mimoC-bg-inner-section{
+        height: auto;
+        
+    }
+    #e-store {
+        height: auto;
+    }
+    #e-store .mimoC-left-e-store{
+        padding: 2rem;
+    }
+    #e-store .mimoC-left-e-store h6{
+        font-size: 11px;
+    }
+    #e-store .mimoC-left-e-store-body p{
+        font-size: 14px;
+    }
+    .mimoC-bold-title{
+        font-size: 18px;
+    }
+    #e-store .mimoC-right-img .mimoC-4-in-one {
+        transform: scale(0.5) translateX(calc(17rem - 100%)) translateY(14rem);
+    
+    }
+    #e-store .mimoC-right-img .mimoC-4-in-one .mimoC-positioning{
+        flex-wrap: nowrap;
+        height: auto;
+    }
+}
