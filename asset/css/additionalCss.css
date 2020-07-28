@@ -3,7 +3,7 @@
 }
 #e-store .mimoC-bg-section{
     background: #FFD400;
-    height: auto;
+    height: 800px;
     padding: 2rem 0;
     width: 90%;
     margin: 0 0 0 auto;
@@ -18,7 +18,7 @@
 #e-store .mimoC-bg-inner-section{
     background: #fff;
     /* margin: 5% auto; */
-   
+   height: 620px;
     width: 90%;
     margin: 0 0 0 auto;
     border-radius: 100px 0 0px 100px;
@@ -89,6 +89,17 @@
    position: absolute;
    left: 0;
    bottom: 0;
+}
+#e-store .mimoC-right-img .mimoC-right-sm-img{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 140px;
+   height:290px ;
+}
+#e-store .mimoC-right-img .mimoC-right-sm-img img{
+  width: 100%;
+  height: 100%;
 }
 #e-store .mimoC-right-img .mimoC-left-sm-img img{
     position: relative;
