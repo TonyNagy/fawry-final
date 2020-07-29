@@ -1,3 +1,10 @@
+
+nav a{
+    transform: translateX(20px);
+}
+nav a .logo_wrapper img{
+    max-height: 55px;
+}
 #e-store {
     background:white;
 }
@@ -145,4 +152,31 @@
         flex-wrap: nowrap;
         height: auto;
     }
+    nav a .logo_wrapper{
+        padding-top: 5px;
+        width: 80px;
+    }
+    nav a .logo_wrapper img{
+        max-height: 100%;
+    }
+    header .mamioC-responsive-style{
+        display: none !important;
+    }
+    .sing-up-button > a:hover {
+        padding: 0px 20px;
+        background-color: #006b99;
+        color: #fff;
+        font-weight: 500;
+        display: inline-block;
+        height: 50px;
+        min-width: 178px;
+        line-height: 46px;
+        text-align: center;
+        border-radius: 32px;
+        border: 1px solid transparent;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+
 }

@@ -4,6 +4,7 @@
     }
     .menu_area #nav .nav-link {
         padding: 35px 7.5px;
+        color: #006B99;
     }
     .sing-up-button > a {
         color: #fff;
@@ -45,8 +46,9 @@
     #ca-navbar {
         padding: 30px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #FFD400;
         text-align: left;
+        color: white;
     }
     .sing-up-button {
         margin-top: 30px;
@@ -127,8 +129,9 @@
     #ca-navbar {
         padding: 20px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #FFD400;
         text-align: left;
+        box-shadow: 0px 0px 8px grey;
     }
     .sing-up-button {
         margin-top: 30px;
