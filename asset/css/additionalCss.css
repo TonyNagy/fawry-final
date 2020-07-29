@@ -29,9 +29,14 @@
 }
 #e-store .mimoC-bold-title{
     font-weight: bold;
+    font-size: 35px;
 }
 #e-store .mimoC-left-e-store{
     padding: 2rem;
+}
+#e-store .mimoC-left-e-store h6{
+    font-weight: 600;
+    color:#006B99 ;
 }
 #e-store .mimoC-left-e-store-body p{
     font-size: 14px;
